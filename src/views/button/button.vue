@@ -12,7 +12,8 @@
       v-model="wrods"
       @change="woredsChange">
     </el-input>
-    <aplayer autoplay
+    <aplayer
+      autoplay
       :music="{
         title: 'secret base~君がくれたもの~',
         artist: 'Silent Siren',
